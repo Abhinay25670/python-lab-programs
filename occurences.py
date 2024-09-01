@@ -1,0 +1,5 @@
+str = input("Enter a string: ")
+sub_str = input("Enter a substring of the string: ")
+temp = str.lower()
+count1 = temp.count(sub_str.lower())
+print("occurrences of",sub_str,"are",count1)
